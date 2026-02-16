@@ -1,0 +1,20 @@
+import numpy as np
+
+# Create array
+a = np.array([[1, 2, 3],
+              [3, 4, 5],
+              [4, 5, 6]])
+
+# Array properties
+print("Array type:", type(a))
+print("Dimensions:", a.ndim)
+print("Shape:", a.shape)
+print("Size:", a.size)
+print("Element type:", a.dtype)
+
+# Array slicing
+print("\nOriginal array:\n", a)
+print("\nRows from index 1 onwards:\n", a[1:])
+print("\nSecond column:\n", a[:, 1])
+print("\nSecond row:\n", a[1, :])
+print("\nColumns from index 1 onwards:\n", a[:, 1:])
