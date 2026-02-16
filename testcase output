@@ -1,0 +1,25 @@
+Array type: <class 'numpy.ndarray'>
+Dimensions: 2
+Shape: (3, 3)
+Size: 9
+Element type: int64
+
+Original array:
+ [[1 2 3]
+ [3 4 5]
+ [4 5 6]]
+
+Rows from index 1 onwards:
+ [[3 4 5]
+ [4 5 6]]
+
+Second column:
+ [2 4 5]
+
+Second row:
+ [3 4 5]
+
+Columns from index 1 onwards:
+ [[2 3]
+ [4 5]
+ [5 6]]
